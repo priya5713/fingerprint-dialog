@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.location.locationutills.com.location.notification.NotificationActivity">
+
+        <Button
+            android:id="@+id/btn_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple Notification" />
+
+        <Button
+            android:id="@+id/btn_notification2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expandable Notification" />
+
+        <Button
+            android:id="@+id/btn_notification3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Notification" />
+
+        <Button
+            android:id="@+id/btn_notification4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inbox Notification" />
+
+        <Button
+            android:id="@+id/btn_notification5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Url IMG Notification" />
+
+        <Button
+            android:id="@+id/btn_notification6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bitmap Notification" />
+    </LinearLayout>
+</layout>

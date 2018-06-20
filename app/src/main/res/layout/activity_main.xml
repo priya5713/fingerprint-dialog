@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.livinglife.custombutton_generate.CustomViewLayout
+            android:id="@+id/btn_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            app:fb_borderColor="#fc0808"
+            app:fb_borderWidth="2dp"
+            app:fb_defaultColor="#3b5998"
+            app:fb_focusColor="#5577bd"
+            app:fb_fontIconSize="25sp"
+            app:fb_iconPaddingLeft="20dp"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="right"
+            app:fb_radius="30dp"
+            app:fb_text="Notification"
+            app:fb_textColor="#FFFFFF" />
+
+        <com.livinglife.custombutton_generate.CustomViewLayout
+            android:id="@+id/btn_fingerprint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            app:fb_borderColor="#fc0808"
+            app:fb_borderWidth="2dp"
+            app:fb_defaultColor="#3b5998"
+            app:fb_focusColor="#5577bd"
+            app:fb_fontIconSize="25sp"
+            app:fb_iconPaddingLeft="20dp"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="right"
+            app:fb_radius="30dp"
+            app:fb_text="Finger Print"
+            app:fb_textColor="#FFFFFF" />
+
+
+            <com.livinglife.custombutton_generate.CustomViewLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="15sp"
+                app:fb_borderColor="#000"
+                app:fb_borderWidth="2dp"
+                app:fb_defaultColor="#3b5"
+                app:fb_radius="25dp"
+                app:fb_text="Hello test button"
+                app:fb_textColor="#000" />
+
+    </LinearLayout>
+
+</layout>
